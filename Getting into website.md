@@ -29,6 +29,8 @@
      * These methods are used to perform various actions on the browser window.
      * Some commonly used methods:
      
+     | Method | Description |
+     |--------|-------------|
      |alert()|display an alert box with a message on the screen.|
      |blur()|will remove focus from the current window.|
      |close()|will close the current window.|
