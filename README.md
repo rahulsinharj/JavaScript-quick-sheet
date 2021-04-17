@@ -89,3 +89,52 @@ console.log(html.substring(1,6)); //h1> t
 console.log(html.slice(0, 4)); // <h1>
 console.log(html.split('>')); // (5) ["<h1", " this is heading</h1", "<p", " this is My para</p", "this str2"]
 console.log(html.replace('this', 'it')); // <h1> it is heading</h1><p> this is My para</p>this str2
+```
+
+<hr/>
+
+## Arrays and objects:
+
+```
+let marks = [34, 23, 24, 93 ,73, 25];
+const fruits = ['Orange', 'Apple', 'Pineapple'];
+const mixed = ['str', 89, [3, 5]];
+
+const arr = new Array(23,123,21, 'Orange');
+console.log(marks);
+console.log(mixed);
+console.log(fruits[1]);
+
+let value = marks.indexOf(73);
+console.log(value)
+
+// Mutating or Modifying arrays
+marks.push(3564); // push in array
+marks.unshift(1009); // push front
+marks.pop(); // pop
+marks.shift(); // pop front
+marks.splice(2, 3); remove elements from 2nd position, and total number of elemets removed is 3.
+marks.reverse(); // reverse
+let marks2 = [1, 2,3, 7]
+marks = marks.concat(marks2); // concat in array
+
+
+let myobj = {
+    'name': 'sanya', 
+    isActive: true,
+    username: 'sanya2508'
+}
+
+console.log(myobj)
+console.log(myobj['name'])
+console.log(myobj.name)
+           
+```
+
+!=, == // compares value.
+!==, === // compares type and value both.
+
+
+// if else switch
+// loops 
+// function
