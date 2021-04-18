@@ -41,3 +41,8 @@
   |Tag|getElementsByTagName()|Multiple Element|
   |Selector (single)|querySelector()|Single Element|
   |Selector (all)|querySelectorAll()|Multiple Element|
+
+
+### DOM traversal properties and methods:
+  * We can traverse the DOM in three directions, downwards, upwards and sideways. Each type of traversal uses a different method.
+  * 
