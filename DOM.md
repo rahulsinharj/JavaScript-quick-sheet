@@ -28,3 +28,16 @@
    |document.scripts|It will return all HTML <script> elements.|
    |document.title|It will return the <title> element.|
    |document.URL|It will return the complete URL of the document.|
+
+### DOM Selectors:
+  * DOM Selectors is used to select HTML elements within a document using JavaScript. 
+  * There are two types of a selector, i.e., single element selector and multiple element selector. 
+  * Some of the common ways of selecting the elements on a page using different methods are:
+
+  |Gets|Method|Type|
+  |----|------|----|
+  |ID|getElementById()|Single Element|
+  |Class|getElementsByClassName()|Multiple Element|
+  |Tag|getElementsByTagName()|Multiple Element|
+  |Selector (single)|querySelector()|Single Element|
+  |Selector (all)|querySelectorAll()|Multiple Element|
