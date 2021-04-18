@@ -46,3 +46,6 @@
      |scrollTo()|will scroll the document to the specified coordinates.|
      |stop()|will stop the window from loading.|
     
+
+<hr/>
+
