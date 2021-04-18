@@ -39,11 +39,12 @@
       localStorage.clear();
       ```
       6. Storing JSON Objects: 
-        * Only strings can be stored with localStorage or sessionStorage, but we can use JSON.stringify to store more complex objects and JSON.parse to read them.
-        ```
-        // Create item:
-        let myObj = { name: 'Sanya', language: 'JavaScript' };
-        localStorage.setItem(key, JSON.stringify(myObj));
-        // Read item:
-        let item = JSON.parse(localStorage.getItem(key));
-        ```
+         * Only strings can be stored with localStorage or sessionStorage, but we can use JSON.stringify to store more complex objects and JSON.parse to read them.
+         
+         ```
+         // Create item:
+         let myObj = { name: 'Sanya', language: 'JavaScript' };
+         localStorage.setItem(key, JSON.stringify(myObj));
+         // Read item:
+         let item = JSON.parse(localStorage.getItem(key));
+         ```
